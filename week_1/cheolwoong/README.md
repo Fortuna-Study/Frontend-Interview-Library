@@ -71,7 +71,8 @@
   - 📌참고
     - [브라우저에 URL을 입력했을 때 발생하는 일들](https://deveric.tistory.com/97)
     - [웹 브라우저에 URL을 입력하면 어떤 일이 일어날까?](https://owlgwang.tistory.com/1)
-
+    - 그림으로 배우는 Http & Network Basic
+    
 2. 프레임워크와 라이브러리의 차이점
 3. 크로스 브라우징 이슈에 대응하는 방법을 설명해주세요.
 
