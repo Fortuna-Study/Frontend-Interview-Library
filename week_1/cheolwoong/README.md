@@ -22,7 +22,12 @@
   - [Execution Context, PoiemaWeb](https://poiemaweb.com/js-execution-context)
 
 2. 동기 처리와 비동기 처리의 차이점을 설명해보세요.
+  - 📌참고
+  - [동기와 비동기방식의 차이점](https://blog.metafor.kr/164)
+  - [이벤트 루프와 매크로,마이크로태스크](https://ko.javascript.info/event-loop#ref-1165)
 3. High Order Function(고차 함수)란 무엇인가?
+  - 📌참고
+  - [자바스크립트 고차 함수(Higher-Order Function) 이해하기](https://velog.io/@jakeseo_me/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-33%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90-22-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B3%A0%EC%B0%A8-%ED%95%A8%EC%88%98Higher-Order-Function-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0)
 
 ## Web
 1. 웹 브라우저 url에 www.naver.com 를 입력했을 때, 화면이 나오기까지 일어나는 일을 설명해라.
@@ -74,7 +79,12 @@
     - 그림으로 배우는 Http & Network Basic
     
 2. 프레임워크와 라이브러리의 차이점
+  - 📌참고
+  - 여러 포스팅을 확인했지만, 아래 포스팅이 원래 작성한 글인 듯하다.
+  - [프레임워크와 라이브러리의 차이점](https://webclub.tistory.com/458)
 3. 크로스 브라우징 이슈에 대응하는 방법을 설명해주세요.
+  - 📌참고
+  - [크로스 브라우징](https://velog.io/@seochanh/00003)
 
 ## React
 1. useCallback은 언제 사용하는가?
