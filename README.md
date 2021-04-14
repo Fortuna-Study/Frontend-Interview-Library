@@ -10,7 +10,7 @@
 ## 📝 스터디 기록
 
 |주차|질문|cheolwoong|seungmin|Hadong|
-|:------:|:---:|:---:|:---:|:---:|:---:|
+|:------:|:---:|:---:|:---:|:---:|
 |2021.03.29 (1주차 월요일)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_1)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_1/cheolwoong)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_1/seungmin)||
 |2021.04.05 (2주차 월요일)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_2)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_2/cheolwoong)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_2/seungmin)||
 |2021.04.12 (3주차 월요일)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_3)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_3/cheolwoong)|[:link:](https://github.com/Fortuna-Study/Frontend-Interview-Library/tree/main/week_3/seungmin)||
