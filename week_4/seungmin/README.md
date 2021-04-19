@@ -18,6 +18,9 @@
 ### 🎈 swr을 사용해보고 특징 이야기하기 (axios, fetch와의 차이점 등...) <선택사항>
 
 ### 🎈 redux toolkit을 사용해보고 특징 이야기하기
+- 리덕스를 좀 더 사용하기 편리하게 만들기 위해 리덕스에서 공식으로 제공하는 개발도구이다.
+- Redux toolkit은 리덕스의 문제점을 보완하고자 만들어졌는데 리덕스를 라이브러리 없이 사용할 시 액션을 생성해도 액션 타입을 정의해야하고 액션함수를 생성하고 리듀서를 정의해야 하는 등 많은 작업이 필요하다. 이때 이러한 액션을 관리하기 위해 불변성을 보존하기 위한 immer나 thunk, saga등 또 다른 서드파티 라이브러리가 사용해야 했다. 하지만 redux toolkit은 내장된 기능으로 saga를 제외한 immer produce, 덕 패턴, redux devtools, thunk등을 지원하고 있다.
+- https://velog.io/@djaxornwkd12/Redux-Toolkit-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
 
 ### 🎈 CORS에 대해서 설명하세요.
 
