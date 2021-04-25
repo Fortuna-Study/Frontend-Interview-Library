@@ -57,6 +57,34 @@
 
 ## 자율 카테고리
 ### atomic 디자인 패턴에 대해서 서로 알아보고 이야기해보기
+  - UI를 단위를 잘게 쪼갠 패턴, 일종의 컴포넌트 단위의 패턴이라고 볼 수 있음
+  - 화학에서 용어를 가져와서 원자(Atoms), 분자(Molecules), 유기체(Organisms), 템플릿(Templates), 페이지(Pages) 단위(폴더)로 나눔
+  - 개발뿐만 아니라 기획/디자인과 함께 적용해야 하는 패턴 또는 방법론
+  - 러닝 커브가 높은 편이다.
+
+  - 장점은 시스템을 잘 구축해놓으면, 테스팅, 디버깅, 유지보수가 편할 것이다.
+  - `분자`는 `원자`를 2~3개 가져다 쓰는 것이라 했는데, `유기체`와 혼동될 수도 있을 것 같음
+  - 개발자 뿐만 아니라, 기획자, 디자이너와 함께 시스템을 설계해야 하기 때문에 오히려 구축 시간이 많이 걸릴 수도...
+  - 상태 관리와 비즈니스 로직 처리가 애매할 수도 있겠다는 생각이 듬, 페이지 -> 유기체 -> 분자 -> 원자로 `Props`를 계속 전달해야 하는데... 
+  - 비슷한 `분자` 컴포넌트가 많이 존재할 수도 있을 것...
+
+  - 📌 참고
+  - [리액트와 아토믹 디자인 패턴](https://tech.madup.com/atomic-design/)
+    - 매드업의 madTech에서 작성한 글
+    - 간단한 예제와 폴더구조 설명
+  - [리액트 어플리케이션 구조 - 아토믹 디자인](https://ui.toast.com/weekly-pick/ko_20200213)
+    - TOAST UI에서 작성한 글
+    - 폴더구조 설명
+  - [(우아한테크캠프 3기) Atomic Design Pattern이 뭐지?](https://zoomkoding.github.io/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BA%A0%ED%94%84/2020/07/09/atomic-design-pattern.html)
+    - 개인 블로그
+  - [https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba](https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba)
+    - 2019년 부스트캠프 팀프로젝트로 작성한 글
+    - https://github.com/connect-foundation/2019-12/ 에서 코드를 볼 수 있음
+    - 위의 github에서 아토믹 디자인 패턴 외에 테스팅 코드나 CI/CD 도입기등 흥미로운 글들을 적어 놓음
+  - [아토믹 디자인(Atomic Design) 적용기 : 한계점, 단점](https://sumini.dev/guide/009-dont-use-atomic-design/)
+    - atomic 디자인의 한계점, 단점을 설명해놓음 
+    - 쏘카 프레임, 아틀라시안 디자인시스템의 참고 링크를 걸어놓음
+   
 ### REST API에 대해서 설명해보세요.
 3.
 4. 
