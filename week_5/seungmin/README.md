@@ -3,8 +3,47 @@
 ## 📚 JavaScript
 
 ### 🎈 ES6 이후에 나온 문법 중, 유용한 문법은 무엇이 있는가?
+#### 🐶 ES6
+- Allow Function
+- 템플릿 문자열(Template String)
+- 비구조화(Destructuring) 할당
+- Rest, Spread 문법
+  
+#### 🐶 ES8
+- `async await` 문법
+
+#### 🐶 ES9
+- Object rest/spread 문법
+
+#### 🐶 ES11
+- `Optional chaining`
+- `Nullish coalescing operator` (null 병합 연산자)
+
+#### 🐶 Reference
+- [ES6](https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/es6.md)
+- [ES7 ~ ES8](https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/es7-es8.md)
+- [ES9 ~ ES10](https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/es9-es10.md)
+- [ES11](https://github.com/baeharam/Must-Know-About-Frontend/blob/master/Notes/javascript/es11.md)
 
 ### 🎈 자바스크립트 콜백함수에 대해서 설명해보세요.
+#### 🐶 콜백함수란?
+- 콜백함수(Callback Function)란 파라미터로 함수를 전달받아, 함수의 내부에서 실행하는 함수이다.
+
+```js
+const numbers = [1, 2, 3, 4, 5];
+
+const multiply = numbers.map((number) => number * 2);
+console.log(multiply);
+// [2, 4, 6, 8, 10]
+```
+- 콜백함수는 익명함수를 사용해야 한다. 함수의 내부에서 실행되기 때문에 이름을 붙이지 않아도 된다.
+- 콜백함수를 인자로 넘길 때 함수를 호출하며 넘기는 것이 아니라 함수의 함수명으로만 넘겨야 한다. 
+- 콜백 지옥은 비동기 처리 로직을 위해 콜백 함수를 연속해서 사용할 때 발생하는 문제이다. 이러한 코드 구조는 가독성도 떨어지고 로직을 변경하기도 어려워진다.
+- 일반적으로 콜백 지옥을 해결하는 방법에는 `Promise`와 `Async/Await`를 사용하면 된다.
+
+#### 🐶 Reference
+- https://velog.io/@minidoo/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%BD%9C%EB%B0%B1-%ED%95%A8%EC%88%98Callback-Function
+- https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/
 
 ## 📚 자율 카테고리
 
